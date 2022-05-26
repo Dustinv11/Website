@@ -10,7 +10,7 @@
       background-image: url("https://cdn.pixabay.com/photo/2021/11/10/20/01/microphone-6784733_960_720.jpg");
       background-repeat: no-repeat;
       background-size: 100% 620px;
-      font-family: 'Fredoka One', Arial Black;, Arial;
+      font-family: 'Fredoka One', Arial Black, Arial;
       font-size: 20px;
     }
 
@@ -45,7 +45,7 @@
     }
 
     header p {
-      font-family: 'Fredoka One';
+      font-family: Times Roman;
       text-align:Center;
       color: #b8b8b8;
       font-style: Bold;
@@ -54,6 +54,8 @@
       margin-bottom: 1em;
       margin-left: 11em;
       margin-right: 0;
+
+
     }
 
     h1 {
@@ -64,30 +66,16 @@
       color: Black;
     }
 
-    section {
-      background-color:Yellow;
-    }
-
-    .banner {
-      background-image: url(images/banner.jpg);
-      height: 350px;
-      background-size: cover;
-      background-position: center;
-    }
 
     h2 {
       font-size: 20px;
     }
 
     p {
-      margin: 18px o;
+      margin: 180px;
+
     }
 
-
-    h1, h2, h3 {
-      font-weight: 700;
-      font-style: italic;
-    }
 
     a {
       color: #e7d9ff;

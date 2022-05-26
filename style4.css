@@ -8,7 +8,7 @@
     body {
       background-image: url("https://images.unsplash.com/photo-1485081791449-31e80b36c854?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470");
       background-repeat: no-repeat;
-      color: Black;
+      color: #ffcd6c;
       font-family: 'Fredoka One', Arial Black, Arial;
       font-size: 20px;
     }
@@ -25,13 +25,12 @@
 
     header p {
       font-family: 'Fredoka One';
-      text-align:Center;
-      color: Grey;
+      text-align: center;
       font-style: Bold;
       font-size: 30px;
-      margin-top: 3em;
-      margin-bottom: 1em;
-      margin-left: 11em;
+      margin-top: 0;
+      margin-bottom: 0;
+      margin-left: 0;
       margin-right: 0;
     }
 
@@ -45,29 +44,14 @@
           10px -10px 25px rgb(81,67,21);
     }
 
-    img {
-      height: 300px;
-    }
-
-
     h2 {
       font-size: 25px;
     }
 
 
-
-
     p {
-      margin: 15px o;
+      margin: 0px
     }
-
-
-    h3 {
-      color: Green;
-      font-size: 20px;
-
-    }
-
 
     a {
       color: green;
