@@ -1,0 +1,109 @@
+    /* Website by Dustin Vance*/
+
+
+    * {
+      font-size: 100%;
+    }
+
+    body {
+      background-color: #9a1e1e;
+      background-image: url("https://cdn.pixabay.com/photo/2021/11/10/20/01/microphone-6784733_960_720.jpg");
+      background-repeat: no-repeat;
+      background-size: 100% 620px;
+      font-family: 'Fredoka One', Arial Black;, Arial;
+      font-size: 20px;
+    }
+
+    /*  Comedy Podcasts Title */
+
+
+    .neonText {
+      animation: flicker 1s infinite alternate;
+      color: #fff;
+    }
+
+
+      /* Flickering animation */
+        @keyframes flicker {
+          0%, 18%, 22%, 25%, 53%, 57%, 100% {
+        text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;
+      }
+      20%, 24%, 55% {
+        text-shadow: none;
+        }
+    }
+
+
+
+    header h1 {
+      text-align: right;
+      margin-top: 20px;
+      margin-right: 170px;
+      color: Black;
+      background: none;
+
+    }
+
+    header p {
+      font-family: 'Fredoka One';
+      text-align:Center;
+      color: #b8b8b8;
+      font-style: Bold;
+      font-size: 30px;
+      margin-top: 3em;
+      margin-bottom: 1em;
+      margin-left: 11em;
+      margin-right: 0;
+    }
+
+    h1 {
+      font-family: Brush Script MT;
+      text-shadow: 1px 1px 0 black;
+      text-align: Center;
+      font-size: 120px;
+      color: Black;
+    }
+
+    section {
+      background-color:Yellow;
+    }
+
+    .banner {
+      background-image: url(images/banner.jpg);
+      height: 350px;
+      background-size: cover;
+      background-position: center;
+    }
+
+    h2 {
+      font-size: 20px;
+    }
+
+    p {
+      margin: 18px o;
+    }
+
+
+    h1, h2, h3 {
+      font-weight: 700;
+      font-style: italic;
+    }
+
+    a {
+      color: #e7d9ff;
+      text decoration: none;
+      text weight: bold;
+    }
+
+    a:hover {
+      text decoration: bold;
+    }
+
+
+    footer {
+      padding: 30px;
+      margin: 30px;
+      background-color: Darkgrey;
+      border: 2px solid pink;
+      text-align: left;
+    }

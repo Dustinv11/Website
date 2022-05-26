@@ -1,0 +1,80 @@
+    /* Website by Dustin Vance*/
+
+
+    * {
+      font-size: 100%;
+    }
+
+    body {
+      background-image: url("https://images.unsplash.com/photo-1485081791449-31e80b36c854?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470");
+      background-repeat: no-repeat;
+      color: Black;
+      font-family: 'Fredoka One', Arial Black, Arial;
+      font-size: 20px;
+    }
+
+    /*  Comedy Podcasts Title */
+
+    header h1 {
+        text-align: center;
+        margin-top: 10px;
+        color: #ffcd6c;
+        background: none;
+
+    }
+
+    header p {
+      font-family: 'Fredoka One';
+      text-align:Center;
+      color: Grey;
+      font-style: Bold;
+      font-size: 30px;
+      margin-top: 3em;
+      margin-bottom: 1em;
+      margin-left: 11em;
+      margin-right: 0;
+    }
+
+    h1 {
+        font-family: Brush Script MT;
+        text-shadow: 1px 1px 0 black;
+        font-size: 120px;
+        text-shadow: 10px 10px 25px rgb(81,67,21),
+          -10px 10px 25px rgb(81,67,21),
+          -10px -10px 25px rgb(81,67,21),
+          10px -10px 25px rgb(81,67,21);
+    }
+
+    img {
+      height: 300px;
+    }
+
+
+    h2 {
+      font-size: 25px;
+    }
+
+
+
+
+    p {
+      margin: 15px o;
+    }
+
+
+    h3 {
+      color: Green;
+      font-size: 20px;
+
+    }
+
+
+    a {
+      color: green;
+      text decoration: none;
+      text weight: bold;
+    }
+
+    a:hover {
+      text decoration: bold;
+    }
