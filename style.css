@@ -6,46 +6,47 @@
     }
 
     body {
-      background-color: #9a1e1e;
+      background-color: #8f0000;
       background-image: url("https://cdn.pixabay.com/photo/2021/11/10/20/01/microphone-6784733_960_720.jpg");
       background-repeat: no-repeat;
       background-size: 100% 620px;
-      font-family: 'Fredoka One', Arial Black, Arial;
+      font-family: Georgia,Lucida Bright;
       font-size: 20px;
+      font-style: Italic;
+      text-shadow: 3px 0px 7px rgba(81,67,21,0.8),
+          -3px 0px 7px rgba(81,67,21,0.8),
+          0px 4px 7px rgba(81,67,21,0.8);
     }
 
     /*  Comedy Podcasts Title */
-
 
     .neonText {
       animation: flicker 1s infinite alternate;
       color: #fff;
     }
 
-
-      /* Flickering animation */
+        /* Flickering animation */
         @keyframes flicker {
           0%, 18%, 22%, 25%, 53%, 57%, 100% {
         text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;
-      }
-      20%, 24%, 55% {
+        }
+        20%, 24%, 55% {
         text-shadow: none;
         }
     }
 
 
-
     header h1 {
       text-align: right;
       margin-top: 20px;
-      margin-right: 170px;
+      margin-right: 130px;
       color: Black;
       background: none;
 
     }
 
     header p {
-      font-family: Times Roman;
+      font-family: Lucida Bright;
       text-align:Center;
       color: #b8b8b8;
       font-style: Bold;
@@ -54,44 +55,34 @@
       margin-bottom: 1em;
       margin-left: 11em;
       margin-right: 0;
-
-
     }
+
 
     h1 {
       font-family: Brush Script MT;
       text-shadow: 1px 1px 0 black;
       text-align: Center;
-      font-size: 120px;
+      font-size: 130px;
       color: Black;
     }
 
 
-    h2 {
-      font-size: 20px;
-    }
-
     p {
       margin: 180px;
-
     }
-
 
     a {
       color: #e7d9ff;
       text decoration: none;
       text weight: bold;
+      font-size: 35px;
     }
 
+    /* mouse over link */
     a:hover {
-      text decoration: bold;
+      color: black;
     }
 
-
-    footer {
-      padding: 30px;
-      margin: 30px;
-      background-color: Darkgrey;
-      border: 2px solid pink;
-      text-align: left;
-    }
+li {
+  margin: 20px
+}

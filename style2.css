@@ -10,40 +10,50 @@
       background-image: url("https://images.unsplash.com/photo-1586521532926-7db207e5b019?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870");
       background-repeat: no-repeat;
       background-size: 100% 635px;
-      font-family:'Fredoka One', Arial Black, Arial;
+      font-family: Impact, Georgia, Lucida Bright;
       font-size: 20px;
-      color: #e20000;
-    }
-
-    /*  Comedy Podcasts Title */
-
-    header h1 {
-      font-family: Brush Script MT;
-      text-shadow: 1px 1px 0 black;
-      text-align: Center;
-      font-size: 120px;
-      color: #e20000;
-      margin-top: 10px;
+      color: black;
       text-shadow: 3px 0px 7px rgba(81,67,21,0.8),
       	  -3px 0px 7px rgba(81,67,21,0.8),
       	  0px 4px 7px rgba(81,67,21,0.8);
     }
 
+    /*  Comedy Podcasts Title */
 
-    header p {
-      font-family: 'Fredoka One';
-      text-align:Center;
-      color: Grey;
-      font-style: Bold;
-      font-size: 30px;
+    header h1 {
+      text-align: Center;
+      margin-top: 10px;
+      color: #e20000;
+      background: none;
+
     }
 
+    header p {
+      font-family: Impact, Georgia, Lucida Bright;
+      text-align:Center;
+      font-style: Bold;
+      font-size: 30px;
+      margin-top: 0;
+      margin-bottom: 0;
+      margin-left: 0;
+      margin-right: 0;
+    }
 
+    h1 {
+      font-family: Brush Script MT;
+      text-shadow: 1px 1px 0 black;
+      font-size: 120px;
 
-    h2 {
-      font-size: 25px;
+    }
+
+    p {
+      margin: 0px
+    }
+
+    a {
+      color: black;
     }
 
     a:hover {
-      text decoration: bold;
+      color: yellow;
     }
